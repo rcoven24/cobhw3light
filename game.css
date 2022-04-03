@@ -1,0 +1,110 @@
+.gamebox img
+{
+    width: 1000px;
+    height: 400px;
+
+}
+
+.gamebox
+{
+    display: flex;
+    justify-content: center;
+}
+
+.header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+
+.button
+{
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.gameboxchild
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+#gold
+{
+    height: 20px;
+    width: 20px;
+    background-color: gold;
+
+}
+
+#silver
+{
+    height: 20px;
+    width: 20px;
+    background-color: silver;
+
+}
+
+#brass
+{
+    height: 20px;
+    width: 20px;
+    background-color: #CD7F32;
+
+}
+
+.bonusbarHead
+{
+    display: flex;
+    justify-content: center;
+}
+
+.progressBar
+{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.progressFoot
+{
+    display: flex;
+    justify-content: center;
+}
+
+#gametime
+{
+    padding-left: 340px;
+}
+
+#rules
+{
+    padding-left: 340px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+.testimonials
+{
+    border:1px solid black;
+}
